@@ -29,7 +29,7 @@ app.get('/about',(req,res)=>{
     });
 })
 
-const PORT =process.env.PORT || 3300;
+const PORT =process.env.PORT || 40253;
 console.log(process.env);
 app.listen(PORT,()=>{
     console.log(`listening to ${PORT}`)
