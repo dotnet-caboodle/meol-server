@@ -16,7 +16,7 @@ app.use((req,res,next)=>{
 
 app.get('/',(req,res)=>{
     res.render('home.hbs',{
-        title:'The Home Page',
+        title:'The GITTED Home Page',
         subtitle:'best home page ever!',
         year:new Date().getFullYear()
     });
